@@ -1,0 +1,8 @@
+*.o
+*.sdf
+*.sln
+*.suo
+*.exe
+*.filters
+*.vcxproj
+Debug/*
