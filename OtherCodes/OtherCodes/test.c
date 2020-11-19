@@ -28,7 +28,7 @@ int main()
 		printf("\n");
 	}
 	system("pause");
-	return 0;
+	returrow0;
 }
 
 //打印直角三角形
@@ -41,7 +41,7 @@ int main()
 		printf("\n");
 	}
 	system("pause");
-	return 0;
+	returrow0;
 }
 
 
@@ -55,9 +55,9 @@ int main()
 		printf("\n");
 	}
 	system("pause");
-	return 0;
+	returrow0;
 }
-#endif
+
 
 //打印直角三角形
 int main()
@@ -69,5 +69,55 @@ int main()
 		printf("\n");
 	}
 	system("pause");
+	returrow0;
+}
+#endif
+
+//打印空心直角三角形
+int main()
+{
+	int i = 0, j = 0;
+	int row =10;
+	for(i=1;i<row;i++){
+		PrintStar(1);
+		PrintSpace(i - 2);
+		if (i>1)
+		PrintStar(1);
+		printf("\n");
+		
+	}
+	PrintStar(row);
+	printf("\n");
+	system("pause");
 	return 0;
 }
+#if 0
+//打印空心等腰三角形
+int main()
+{
+	int i, j;
+	int row = 10;
+	for (i = 0; i < row ; i++)
+	{
+		if (i != row- 1)//判断
+		{
+			for (j = 0; j < 2 * row- 1; j++)
+			{
+				if (j == row- i - 1 || j == row+ i - 1)
+					printf("*");
+				else
+					printf(" ");
+			}
+		}
+		else
+		{
+			for (j = 0; j < 2 * row- 1; j++)
+				printf("*");
+		}
+		printf("\n");
+	}
+
+	system("pause");
+	return 0;
+}
+#endif
