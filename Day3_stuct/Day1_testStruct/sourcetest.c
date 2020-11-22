@@ -24,7 +24,7 @@ int main()
 	//	printf("name:%s;age:%d;sex:%c\n", _p[i].name, _p[i].age, _p[i].sex);
 	//}
 	for (; _p < s+3; ++_p){
-		printf("name:%s;age:%d;sex:%s\n", _p->name, _p->age, _p->sex);		
+		printf("name:%s;age:%d;sex:%s\n", _p->name, _p->age, _p->sex);		//问题：为什么打印性别要用%s，%c为什么不行？
 	}
 	//printf("%s\n", p->name);
 	//printf("%s\n", student.name);
