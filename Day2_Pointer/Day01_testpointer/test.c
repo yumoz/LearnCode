@@ -3,8 +3,15 @@
 
 int main()
 {
-	char *pstr = "hello world.";
-	printf("%s\n", pstr);
+	//int *p = NULL;
+	
+	int arr[10] = { 0 };
+	//int(*ptr)[10] = &arr;
+
+	 &arr;
+
+	/*char *pstr = "hello world.";
+	printf("%s\n", pstr);*/
 	system("pause");
 	return 0;
 }
