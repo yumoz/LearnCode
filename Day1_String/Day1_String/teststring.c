@@ -4,6 +4,17 @@
 #pragma warning(disable:4996)
 
 
+
+int main()
+{
+	char src[] = "abcde";
+	char dst[10] = { 0 };
+	strcpy(dst, src);
+	printf("%s\n", dst);
+	system("pause");
+	return 0;
+}
+#if 0
 int main()
 {
 	char str1[20];
@@ -22,7 +33,7 @@ int main()
 	return 0;
 }
 
-#if 0
+
 //strncpy 
 int main()
 {

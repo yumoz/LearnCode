@@ -18,7 +18,6 @@ char *MyStrcpy(char *dst, const char *str)
 int main()
 {
 	const char *arr = "abcdefg1234";
-	int len = sizeof(arr) - 1;
 	char RecStr[20] = { 0 };
 	printf("RecvString:%s\n", MyStrcpy(RecStr, arr));
 	system("pause");

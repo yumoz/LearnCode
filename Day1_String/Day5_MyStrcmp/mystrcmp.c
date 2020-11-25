@@ -25,8 +25,8 @@ int my_strcmp(char *dest, const char*src)
 
 int main()
 {
-	char a[20] = "abcdef";
-	char b[10] = "abs";
+	char a[20] = "abs";
+	char b[10] = "abc";
 	int c = my_strcmp(a, b);
 	if (-1 == c){
 		printf("str1<str2\n");
