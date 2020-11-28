@@ -3,7 +3,7 @@
 
 int main()
 {
-	int arr[1000000 * 100000];
+	//int arr[1000000 * 100000];
 	system("pause");
 	return 0;
 }
