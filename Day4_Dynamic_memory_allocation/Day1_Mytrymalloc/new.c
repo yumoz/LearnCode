@@ -9,14 +9,23 @@ int main()
 	int arr[num] = { 0 };
 	//代码2
 	int* ptr = NULL;
-	ptr = (int*)malloc(num*sizeof(int));
+	//ptr = (int*)malloc(num*sizeof(int));
+	//ptr = calloc(10, sizeof(int));
+	ptr = realloc(ptr, 1000);
 	if (NULL != ptr)//判断ptr指针是否为空
 	{
-		int i = 0;
-		for (i = 0; i < num; i++)
+		for (int i = 0; i < num; i++)
 		{
-			*(ptr + i) = 0;
+			*(ptr + i) = i;
 		}
+	}
+	else{//开辟失败
+		exit(EXIT_FAILURE);
+	}
+
+	// 打印输出
+	for (int i = 0; i < num; i++){
+		printf("%d ", *(ptr + i));
 	}
 	free(ptr);//释放ptr所指向的动态内存
 	ptr = NULL;//是否有必要？
