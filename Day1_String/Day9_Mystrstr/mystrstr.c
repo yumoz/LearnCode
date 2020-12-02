@@ -24,7 +24,7 @@ const char *my_strstr(const char *str, const char *sub_str)
 
 int main()
 {
-	char *s = "helloyumoz's blog";
+	char *s = "hello yumoz's blog";
 	char *sub = "yumoz";
 	printf("%s\n", my_strstr(s, sub));
 	system("pause");
