@@ -30,9 +30,9 @@ void *My_memcpy(void *dst, const void *src, size_t size)
 int main()
 {
 	char buf[100] = "abcdefghijk";
-	//memcpy(buf+2, buf, 5);
-	My_memcpy(buf + 2, buf, 5);
-	printf("%s\n", buf + 2);
+	char dst[100] = {0};
+	My_memcpy(dst, buf, 11);
+	printf("%s\n", dst);
 	system("pause");
 	return 0;
 }
