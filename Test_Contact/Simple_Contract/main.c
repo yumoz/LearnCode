@@ -6,6 +6,7 @@
 #include <time.h> 
 #pragma  warning(disable:4996)
 int length = 0, length1 = 0;
+
 struct person
 {
 	char name[30];   //姓名 
@@ -17,6 +18,7 @@ struct person
 	char email[20];    //电子邮件 	 
 };
 struct person tel[200], tel1[200], temp[200];
+
 void add()  //添加 
 {
 	int x, i, j;
