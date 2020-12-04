@@ -17,7 +17,6 @@ int main()
 		printf("Size is %ld bytes. \n", size);
 	}
 
-	
 
 	//for (char i = 'a'; i <= 'z'; i++){
 	//	fputc(i, fp);
