@@ -1,9 +1,9 @@
 # 1 笔记
 
 记录我在学习C语言不同模块时的总结。
-$$
+
 \int_{now}^{+\infty}Learn+Code+Summary=Successful
-$$
+
 上面这个公式送给看我代码的人
 
 
