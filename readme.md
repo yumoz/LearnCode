@@ -1,3 +1,7 @@
+# 自我介绍
+
+ Hello, I am Yumoz. If you want to know about me, just search on Google or Baidu with yumoz.Then you will find my csdn and cnblogs or search websites: yumoz.github.io. 
+
 # 1 笔记
 
 此仓库主要记录学习各个模块的总结。
