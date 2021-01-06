@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<windows.h>
 #pragma warning(disable:4996)
+
+//Drink Water Question
 int main()
 {
 	int  total = 0;
